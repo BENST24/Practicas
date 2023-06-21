@@ -64,7 +64,6 @@ void comprobarArchivo()
                 << "Nombre/s,"
                 << "Apellido/s,"
                 << "Carrera,"
-                << "Año,"
                 << "Materia,"
                 << "Fecha,"
                 << "Hora,"
@@ -90,8 +89,6 @@ void ingresarAlumno()
         getline(cin, apellido);
         cout << "Ingresa Carrera: ";
         getline(cin, carrera);
-        cout << "Ingrese Año";
-        cin >> año;
         cout << "Ingresa Materia: ";
         getline(cin, materia);
         cout << "Ingresa Fecha: ";
